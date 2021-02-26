@@ -1,5 +1,7 @@
 # Svelte Accessible Range Input
 
+![REPL Example Gif](https://github.com/miles-crighton/svelte-range-input/blob/master/example.gif)
+
 [REPL Example](https://svelte.dev/repl/7f0042a186ee4d8e949c46ca663dbe6c?version=3.33.0)
 
 A basic reference for an accessible range control that can be dropped in to your Svelte project.

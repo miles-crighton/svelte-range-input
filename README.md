@@ -19,21 +19,31 @@ You can retrieve the value from the control through either the onChange event
 or binding the value to a parent variable.
 
 onChange event listener: `<Range on:change={(e) => value = e.detail.value} />`
-Bind value: `<Range bind:value/>
+
+Bind value: `<Range bind:value/>`
 
 ## Theme Custom Properties
 
 **Track**
+
 `--track-focus`: Outline of track when tab-focused
+
 `--track-bgcolor`: Non-active background color of track
+
 `--track-highlight-bg-color`: Background color of active part of track
+
 `--track-highlight-bg`: Background of active part of track, can use linear-gradient()
 
 **Thumb**
+
 `--thumb-bgcolor`: Background color of thumb
+
 `--thumb-holding-outline`: rgba(x, x, x, 0.3) value for the circular outline on the thumb when held
 
 **Tooltip**
+
 `--tooltip-bgcolor`: Background color of tooltip
+
 `--tooltip-bg`: Background of tooltip, can use linear-gradient()
+
 `--tooltip-text`: Text color for tooltip
